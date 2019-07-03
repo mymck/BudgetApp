@@ -1,0 +1,43 @@
+body {
+	background-color:#AAAAAA;
+	font-size:3em;
+}
+
+div {
+	padding: 4% 0 4% 0;
+	border-radius:25px;
+	width:65%;
+	color:white;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#welcome {
+	color:black;
+}
+
+#cont_20:hover {
+	background: linear-gradient(to top left, #5252FF, #1111AA,  #111188);
+	cursor:pointer;
+}
+
+#cont_20 {
+	background: linear-gradient(to bottom right, #5252FF, #111188);
+}
+
+#cont_10:hover {
+	background: linear-gradient(to top left, #52FF52, #11AA11, #118811);
+	cursor:pointer;
+}
+
+#cont_10 {
+	background: linear-gradient(to bottom right, #52FF52, #118811);
+}
+
+#logout {
+	font-size:0.35em;
+	color:blue;
+	cursor:pointer;
+}
